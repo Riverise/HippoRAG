@@ -16,7 +16,7 @@ setuptools.setup(
     packages=setuptools.find_packages("src"),
     python_requires=">=3.10",
     install_requires=[
-        "torch==2.5.1",
+        "torch==2.4.0",
         "transformers==4.45.2",
         "vllm==0.6.6.post1",
         "openai==1.58.1",
@@ -26,7 +26,8 @@ setuptools.setup(
         "tiktoken==0.7.0",
         "pydantic==2.10.4",
         "tenacity==8.5.0",
+        "numpy==2.2.1",
         "einops", # No version specified
-        "tqdm", # No version specified
+        "tqdm==4.66.6", # No version specified
     ]
 )
